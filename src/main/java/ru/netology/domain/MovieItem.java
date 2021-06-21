@@ -1,6 +1,7 @@
 package ru.netology.domain;
 
 import ru.netology.domain.PurchaseItem;
+import ru.netology.manager.MovieManager;
 
 // import lombok.AllArgsConstructor;
 // import lombok.Data;
@@ -25,6 +26,9 @@ public class MovieItem {
     private PurchaseItem tenth;
 
     public MovieItem(int i, int i1, String first, int i2, int i3) {
+    }
+
+    public MovieItem(int i, String first, String film1, String detective) {
     }
 
 

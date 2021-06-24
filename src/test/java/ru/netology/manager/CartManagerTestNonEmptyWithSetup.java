@@ -14,7 +14,7 @@ public class CartManagerTestNonEmptyWithSetup {
     private PurchaseItem third = new PurchaseItem(3, 3, "third", 1, 1);
 
     @BeforeEach
-    public void setUp() {
+    public void setUp() { 
         manager.add(first);
         manager.add(second);
         manager.add(third);

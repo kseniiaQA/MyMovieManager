@@ -3,16 +3,15 @@ package ru.netology.manager;
 public class MovieManager {
 
 
-
-    private int count=10;
- private MovieManager[] items = new MovieManager[0];
+    private int count = 10;
+    private MovieManager[] items = new MovieManager[0];
 
 
     public MovieManager() {
 
     }
 
-    public MovieManager(int i2, int i1, String first, int i, int count) {
+    public MovieManager(int count) {
         this.count= count;
     }
 
